@@ -32,6 +32,7 @@ const categorizedSkills = {
       "react",
       "svelte",
       "angularjs",
+      "angular",
       "backbonejs",
       "bootstrap",
       "vuetify",
@@ -132,7 +133,7 @@ const categorizedSkills = {
 
   baas: {
     title: "Backend as a Service(BaaS)",
-    skills: ["firebase", "amplify", "heroku"],
+    skills: ["firebase", "appwrite", "amplify", "heroku"],
   },
 
   framework: {
@@ -221,6 +222,8 @@ const icons = {
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
   angularjs:
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg",
+  angular:
+    "https://angular.io/assets/images/logos/angular/angular.svg",
   aws:
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
   android:
@@ -425,6 +428,7 @@ const icons = {
     "https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg",
   elixir: "https://www.vectorlogo.zone/logos/elixir-lang/elixir-lang-icon.svg",
   heroku: "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg",
+  appwrite: "https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg",
   hexo: "https://www.vectorlogo.zone/logos/hexoio/hexoio-icon.svg",
   travisci: "https://www.vectorlogo.zone/logos/travis-ci/travis-ci-icon.svg",
   apachecordova:
@@ -433,10 +437,10 @@ const icons = {
   postman: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
   erlang: "https://www.vectorlogo.zone/logos/erlang/erlang-official.svg",
   sqlite: "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg",
-  mssql: "https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg",
+  mssql: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg",
   middleman:
     "https://raw.githubusercontent.com/leungwensen/svg-icon/b84b3f3a3da329b7c1d02346865f8e98beb05413/dist/svg/logos/middleman.svg",
-  matlab: "https://raw.githubusercontent.com/simple-icons/simple-icons/master/icons/mathworks.svg",
+  matlab: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
 }
 
 const skillWebsites = {
@@ -445,6 +449,7 @@ const skillWebsites = {
   vuejs: "https://vuejs.org/",
   react: "https://reactjs.org/",
   angularjs: "https://angular.io",
+  angular: "https://angular.io",
   aws: "https://aws.amazon.com",
   android: "https://developer.android.com",
   backbonejs: "https://backbonejs.org",
@@ -576,6 +581,7 @@ const skillWebsites = {
   unreal: "https://unrealengine.com/",
   hexo: "hexo.io/",
   heroku: "https://heroku.com",
+  appwrite: "https://appwrite.io",
   zapier: "https://zapier.com",
   elixir: "https://elixir-lang.org",
   travisci: "https://travis-ci.org",
